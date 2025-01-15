@@ -1,0 +1,16 @@
+@media (min-width:1400px) {}
+@media (min-width:1200px) and (max-width:1399px) {}
+@media (min-width:768px) and (max-width:991px) {}
+@media (min-width:576px) and (max-width:767px) {
+    .hero_con_main {
+        flex-direction: column;
+    }
+    .hero_con {
+        width: 100%;
+        text-align: center;
+    }
+    .con a {
+        margin: 10px auto;
+    }
+}
+@media (min-width:575px) {}
